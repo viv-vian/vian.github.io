@@ -824,6 +824,33 @@ button {
         font-size: 1.2rem;
     }
 
+    .content10 {
+        position: absolute;
+
+        top: 69rem;
+    }
+
+    .content3 {
+        position: absolute;
+        top: 102rem;
+
+    }
+
+    .content5 {
+
+        position: absolute;
+
+        top: 45rem;
+    }
+
+    .content6 {
+        position: absolute;
+        bottom: 14rem;
+
+
+    }
+
+
     .content1,
     .content2,
     .content3,
@@ -894,6 +921,32 @@ button {
     /* .vide {
         display: none;
     } */
+
+    .content10 {
+        position: absolute;
+
+        top: 69rem;
+    }
+
+    .content3 {
+        position: absolute;
+        top: 102rem;
+
+    }
+
+    .content5 {
+
+        position: absolute;
+
+        top: 45rem;
+    }
+
+    .content6 {
+        position: absolute;
+        bottom: 14rem;
+
+
+    }
 
     .video1,
     .video2,
@@ -991,6 +1044,33 @@ button {
         padding-left: 0.5rem;
         padding-right: 0.5rem;
     }
+
+    .content10 {
+        position: absolute;
+
+        top: 69rem;
+    }
+
+    .content3 {
+        position: absolute;
+        top: 102rem;
+
+    }
+
+    .content5 {
+
+        position: absolute;
+
+        top: 45rem;
+    }
+
+    .content6 {
+        position: absolute;
+        bottom: 14rem;
+
+
+    }
+
 
     .two {
         padding-left: 0.2rem;
