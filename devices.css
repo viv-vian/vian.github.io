@@ -97,7 +97,7 @@ a {
     cursor: pointer;
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 450px) {
     .nav--menu {
         position: fixed;
         top: -100%;
@@ -398,9 +398,10 @@ button {
     column-gap: 4.5rem;
     align-items: end;
     text-align: end;
-    padding-left: 63rem;
+
+    /* padding-left: 13rem; */
     padding-top: 6rem;
-    /* align-items: center; */
+
 }
 
 
@@ -748,6 +749,21 @@ video {
 
 .content:hover {
     opacity: 1;
+}
+
+::-webkit-scrollbar {
+    width: .6rem;
+    border-radius: .5rem;
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(46, 45, 45);
+    border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: hsl(228, 8%, 54%);
 }
 
 @media (max-width: 2560px) {
@@ -1203,23 +1219,23 @@ video {
 
 @media (max-width: 1920px) {
     .profile h1 {
-        font-size: 5rem;
+        font-size: 4rem;
     }
 
     .profile {
-        padding-left: 2rem;
+        padding-left: 12rem;
     }
 
     .produc {
-        padding-left: 5rem;
-        padding-right: 2rem;
+        padding-left: 15rem;
+        padding-right: 10rem;
     }
 
     .log {
         border-radius: 50%;
-        width: 25%;
+        width: 28%;
         padding-top: 10rem;
-        padding-left: 8rem;
+        padding-left: 15rem;
         padding-bottom: 1rem;
 
     }
@@ -1229,7 +1245,7 @@ video {
     }
 
     .vide {
-        width: 1750px;
+        width: 1390px;
         height: 900px;
         border-radius: 30px;
         transition: 0.3s ease;
@@ -1241,7 +1257,7 @@ video {
     .video1,
     .video3,
     .video4 {
-        width: 600px;
+        width: 420px;
         height: 750px;
         border-radius: 30px;
         transition: 0.3s ease;
@@ -1249,7 +1265,7 @@ video {
     }
 
     .video {
-        width: 600px;
+        width: 420px;
         height: 750px;
 
     }
@@ -1274,9 +1290,9 @@ video {
         text-align: end;
 
         padding-top: 40rem;
-        padding-left: 88rem;
+        padding-left: 80rem;
         font-size: 3rem;
-        /* align-items: center; */
+
     }
 
     .footer--social {
@@ -1363,7 +1379,92 @@ video {
         padding-top: 30rem;
         padding-left: 78rem;
         font-size: 3rem;
-        /* align-items: center; */
+
+    }
+
+
+
+
+
+}
+
+
+@media (max-width: 1773px) {
+
+    .profile h1 {
+        font-size: 4rem;
+    }
+
+    .log {
+        border-radius: 50%;
+        width: 28%;
+        padding-top: 5rem;
+        padding-left: 12rem;
+        padding-bottom: 1rem;
+
+    }
+
+    .produc {
+
+        padding-left: 15rem;
+        padding-right: 12rem;
+
+
+    }
+
+    .log img {
+        border-radius: 50%;
+    }
+
+    .vide {
+        width: 1250px;
+        height: 900px;
+        border-radius: 30px;
+        transition: 0.3s ease;
+        border-bottom: 2px;
+    }
+
+
+
+    .video1,
+    .video3,
+    .video4 {
+        width: 400px;
+        height: 650px;
+        border-radius: 30px;
+        transition: 0.3s ease;
+        border-bottom: 2px;
+    }
+
+    .video {
+        width: 400px;
+        height: 650px;
+
+    }
+
+    .video5,
+    .video2,
+    .video6 {
+        height: 450px;
+        width: 450px;
+        border-radius: 30px;
+    }
+
+    .videos {
+        width: 450px;
+        height: 450px;
+    }
+
+    .nav--list {
+        flex-direction: row;
+        column-gap: 4.5rem;
+        align-items: end;
+        text-align: end;
+
+        padding-top: 30rem;
+        padding-left: 72rem;
+        font-size: 3rem;
+
     }
 
 
@@ -1447,7 +1548,7 @@ video {
         padding-top: 30rem;
         padding-left: 72rem;
         font-size: 3rem;
-        /* align-items: center; */
+
     }
 
 
@@ -1464,20 +1565,21 @@ video {
 
     .log {
         border-radius: 50%;
-        width: 30%;
+        width: 35%;
         padding-top: 5rem;
-        padding-left: 15rem;
+        padding-left: 19rem;
         padding-bottom: 1rem;
 
     }
 
     .profile {
-        padding-left: 10rem;
+        padding-left: 15rem;
     }
 
     .produc {
 
-        padding-left: 15rem;
+        padding-left: 20rem;
+        padding-right: 10rem;
 
 
     }
@@ -1487,7 +1589,7 @@ video {
     }
 
     .vide {
-        width: 1200px;
+        width: 1100px;
         height: 900px;
         border-radius: 30px;
         transition: 0.3s ease;
@@ -1499,7 +1601,7 @@ video {
     .video1,
     .video3,
     .video4 {
-        width: 420px;
+        width: 330px;
         height: 650px;
         border-radius: 30px;
         transition: 0.3s ease;
@@ -1507,7 +1609,7 @@ video {
     }
 
     .video {
-        width: 420px;
+        width: 330px;
         height: 650px;
 
     }
@@ -1516,12 +1618,12 @@ video {
     .video2,
     .video6 {
         height: 450px;
-        width: 350px;
+        width: 340px;
         border-radius: 30px;
     }
 
     .videos {
-        width: 350px;
+        width: 340px;
         height: 450px;
     }
 
@@ -1534,7 +1636,7 @@ video {
         padding-top: 30rem;
         padding-left: 65rem;
         font-size: 3rem;
-        /* align-items: center; */
+
     }
 
 
@@ -1640,7 +1742,7 @@ video {
 
     .produc {
 
-        padding-left: 1rem;
+        padding-left: 15rem;
     }
 
     .log img {
@@ -1660,7 +1762,7 @@ video {
     .video1,
     .video3,
     .video4 {
-        width: 400px;
+        width: 300px;
         height: 650px;
         border-radius: 30px;
         transition: 0.3s ease;
@@ -1668,7 +1770,7 @@ video {
     }
 
     .video {
-        width: 400px;
+        width: 300px;
         height: 650px;
 
     }
@@ -1795,9 +1897,9 @@ video {
 
     .log {
         border-radius: 50%;
-        width: 30%;
-        padding-top: 5rem;
-        padding-left: 15rem;
+        width: 40%;
+        padding-top: 10em;
+        padding-left: 25em;
         padding-bottom: 1rem;
 
     }
@@ -1806,7 +1908,8 @@ video {
 
     .produc {
 
-        padding-left: 15rem;
+        padding-left: 20rem;
+        padding-right: 10rem;
 
 
     }
@@ -1816,8 +1919,98 @@ video {
     }
 
     .vide {
-        width: 1050px;
+        width: 950px;
         height: 900px;
+        border-radius: 30px;
+        transition: 0.3s ease;
+        border-bottom: 2px;
+    }
+
+
+
+    .video1,
+    .video3,
+    .video4 {
+        width: 310px;
+        height: 650px;
+        border-radius: 30px;
+        transition: 0.3s ease;
+        border-bottom: 2px;
+    }
+
+    .video {
+        width: 310px;
+        height: 650px;
+
+    }
+
+    .video5,
+    .video2,
+    .video6 {
+        height: 450px;
+        width: 370px;
+        border-radius: 30px;
+    }
+
+    .videos {
+        width: 370px;
+        height: 450px;
+    }
+
+    .nav--list {
+        flex-direction: row;
+        column-gap: 4.5rem;
+        align-items: end;
+        text-align: end;
+
+        padding-top: 30rem;
+        padding-left: 59rem;
+        font-size: 3rem;
+
+    }
+
+
+
+
+
+}
+
+@media (max-width: 1500px) {
+
+    .profile h1 {
+        font-size: 3rem;
+    }
+
+    .log {
+        border-radius: 50%;
+        width: 39%;
+        padding-top: 10em;
+        padding-left: 18em;
+        padding-bottom: 1rem;
+
+    }
+
+    .profile {
+        padding-left: 9rem;
+    }
+
+
+
+    .produc {
+
+        padding-left: 15rem;
+        padding-right: 5rem;
+
+
+    }
+
+    .log img {
+        border-radius: 50%;
+    }
+
+    .vide {
+        width: 1100px;
+        height: 700px;
         border-radius: 30px;
         transition: 0.3s ease;
         border-bottom: 2px;
@@ -1840,6 +2033,13 @@ video {
         height: 650px;
 
     }
+
+    /* .video1,
+    .video4 {
+        padding-right: 1rem;
+    } */
+
+
 
     .video5,
     .video2,
@@ -1872,119 +2072,42 @@ video {
 
 }
 
-
-
-
-
-@media (max-width: 1610px) {
+@media (max-width: 1440px) {
 
     .profile h1 {
-        font-size: 5rem;
+        font-size: 2.5rem;
     }
 
     .log {
         border-radius: 50%;
-        width: 25%;
-        padding-top: 4rem;
-        padding-left: 6rem;
+        width: 20%;
+        padding-top: 2rem;
+        padding-left: 5rem;
         padding-bottom: 1rem;
 
     }
 
-    .produc {
-
-        padding-left: 10rem;
-        padding-right: 10rem;
-    }
-
-    .log img {
-        border-radius: 50%;
-    }
-
-    .vide {
-        width: 250px;
-        height: 900px;
-        border-radius: 30px;
-        transition: 0.3s ease;
-        border-bottom: 2px;
-    }
-
-
-
-    .video1,
-    .video3,
-    .video4 {
-        width: 20px;
-        height: 650px;
-        border-radius: 30px;
-        transition: 0.3s ease;
-        border-bottom: 2px;
-    }
-
-    .video {
-        width: 20px;
-        height: 650px;
-
-    }
-
-    .video5,
-    .video2,
-    .video6 {
-        height: 450px;
-        width: 150px;
-        border-radius: 30px;
-    }
-
-    .videos {
-        width: 150px;
-        height: 450px;
-    }
-
-    .nav--list {
-        flex-direction: row;
-        column-gap: 4.5rem;
-        align-items: end;
-        text-align: end;
-
-        padding-top: 30rem;
-        padding-left: 78rem;
-        font-size: 3rem;
-
-    }
-
-
-
-
-
-}
-
-@media (max-width: 1610px) {
-
-    .profile h1 {
-        font-size: 5rem;
-    }
-
-    .log {
-        border-radius: 50%;
-        width: 25%;
-        padding-top: 4rem;
-        padding-left: 6rem;
-        padding-bottom: 1rem;
-
-    }
-
-    .produc {
-
+    .profile {
         padding-left: 1rem;
     }
 
+
+
+    .produc {
+
+        padding-left: 5rem;
+        padding-right: 1rem;
+
+
+    }
+
     .log img {
         border-radius: 50%;
     }
 
     .vide {
-        width: 1150px;
-        height: 900px;
+        width: 1258px;
+        height: 700px;
         border-radius: 30px;
         transition: 0.3s ease;
         border-bottom: 2px;
@@ -1995,30 +2118,30 @@ video {
     .video1,
     .video3,
     .video4 {
-        width: 100px;
-        height: 650px;
+        width: 430px;
+        height: 500px;
         border-radius: 30px;
         transition: 0.3s ease;
-        border-bottom: 2px;
+        /* border-bottom: 2px; */
     }
 
     .video {
-        width: 100px;
-        height: 650px;
+        width: 430px;
+        height: 500px;
 
     }
 
     .video5,
     .video2,
     .video6 {
-        height: 450px;
-        width: 250px;
+        height: 300px;
+        width: 400px;
         border-radius: 30px;
     }
 
     .videos {
-        width: 250px;
-        height: 450px;
+        width: 400px;
+        height: 300px;
     }
 
     .nav--list {
@@ -2026,11 +2149,19 @@ video {
         column-gap: 4.5rem;
         align-items: end;
         text-align: end;
+        padding-left: 71rem;
+        padding-top: 10rem;
+        font-size: 1rem;
+    }
 
+    .footer--social {
+        color: azure;
+        padding-bottom: 1rem;
+        text-align: center;
         padding-top: 30rem;
-        padding-left: 78rem;
-        font-size: 3rem;
 
+        font-size: 2.5rem;
+        font-size: 2.5rem;
     }
 
 
@@ -2039,24 +2170,35 @@ video {
 
 }
 
-@media (max-width: 1600px) {
+
+
+@media (max-width: 1366px) {
 
     .profile h1 {
-        font-size: 5rem;
+        font-size: 2.5rem;
     }
 
     .log {
         border-radius: 50%;
-        width: 25%;
-        padding-top: 4rem;
-        padding-left: 6rem;
+        width: 20%;
+        padding-top: 2rem;
+        padding-left: 5rem;
         padding-bottom: 1rem;
 
     }
 
+    .profile {
+        padding-left: 1rem;
+    }
+
+
+
     .produc {
 
-        padding-left: 1rem;
+        padding-left: 5rem;
+        padding-right: 1rem;
+
+
     }
 
     .log img {
@@ -2064,8 +2206,8 @@ video {
     }
 
     .vide {
-        width: 1550px;
-        height: 900px;
+        width: 1258px;
+        height: 700px;
         border-radius: 30px;
         transition: 0.3s ease;
         border-bottom: 2px;
@@ -2076,30 +2218,30 @@ video {
     .video1,
     .video3,
     .video4 {
-        width: 400px;
-        height: 650px;
+        width: 440px;
+        height: 500px;
         border-radius: 30px;
         transition: 0.3s ease;
         border-bottom: 2px;
     }
 
     .video {
-        width: 400px;
-        height: 650px;
+        width: 440px;
+        height: 500px;
 
     }
 
     .video5,
     .video2,
     .video6 {
-        height: 450px;
-        width: 10rem;
+        height: 300px;
+        width: 400px;
         border-radius: 30px;
     }
 
     .videos {
-        width: 10rem;
-        height: 450px;
+        width: 400px;
+        height: 300px;
     }
 
     .nav--list {
@@ -2107,94 +2249,19 @@ video {
         column-gap: 4.5rem;
         align-items: end;
         text-align: end;
-
-        padding-top: 30rem;
-        padding-left: 78rem;
-        font-size: 3rem;
-        /* align-items: center; */
+        padding-left: 71rem;
+        padding-top: 10rem;
+        font-size: 1rem;
     }
 
-
-
-
-
-}
-
-
-
-@media (max-width: 1542px) {
-
-    .profile h1 {
-        font-size: 5rem;
-    }
-
-    .log {
-        border-radius: 50%;
-        width: 25%;
-        padding-top: 4rem;
-        padding-left: 6rem;
+    .footer--social {
+        color: azure;
         padding-bottom: 1rem;
-
-    }
-
-    .produc {
-
-        padding-left: 1rem;
-    }
-
-    .log img {
-        border-radius: 50%;
-    }
-
-    .vide {
-        width: 1150px;
-        height: 900px;
-        border-radius: 30px;
-        transition: 0.3s ease;
-        border-bottom: 2px;
-    }
-
-
-
-    .video1,
-    .video3,
-    .video4 {
-        width: 400px;
-        height: 650px;
-        border-radius: 30px;
-        transition: 0.3s ease;
-        border-bottom: 2px;
-    }
-
-    .video {
-        width: 400px;
-        height: 650px;
-
-    }
-
-    .video5,
-    .video2,
-    .video6 {
-        height: 450px;
-        width: 250px;
-        border-radius: 30px;
-    }
-
-    .videos {
-        width: 250px;
-        height: 450px;
-    }
-
-    .nav--list {
-        flex-direction: row;
-        column-gap: 4.5rem;
-        align-items: end;
-        text-align: end;
-
+        text-align: center;
         padding-top: 30rem;
-        padding-left: 78rem;
-        font-size: 3rem;
-        /* align-items: center; */
+
+        font-size: 2.5rem;
+        font-size: 2.5rem;
     }
 
 
@@ -2202,6 +2269,27 @@ video {
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2210,10 +2298,12 @@ video {
 
 @media (max-width: 1112px) {
 
+
+
     .video,
     .vide,
     .videos {
-        width: 800px;
+        width: 1000px;
         height: 500px;
     }
 
@@ -2236,9 +2326,9 @@ video {
     .video5 {
         width: 1000px;
         height: 500px;
-        border-radius: 20px;
+        border-radius: 30px;
         transition: 0.3s ease;
-        border-bottom: 30px;
+
 
 
     }
@@ -2247,8 +2337,16 @@ video {
 
 
 
+    .products-container {
+        display: grid;
+        /* gap: 5rem; */
+        grid-template-columns: repeat(auto-fit, minmax(300rem, auto));
+        padding-top: 1rem;
+        /* padding-right: 3rem; */
+        transition: 0.3s ease;
 
 
+    }
 
 
 
@@ -2264,39 +2362,36 @@ video {
 
     }
 
+    .nav--list {
+        flex-direction: row;
+        column-gap: 4.5rem;
+        align-items: end;
+        text-align: end;
+        padding-left: 51rem;
+        padding-top: 12rem;
+        font-size: 1.2rem;
+    }
+
+    .footer--social {
+        color: azure;
+        padding-bottom: 1rem;
+        text-align: center;
+        padding-top: 200rem;
+
+        font-size: 2.5rem;
+        font-size: 2.5rem;
+    }
+
     .profile h1 {
         padding-left: 4rem;
     }
 
 
-    .products-container {
-        display: grid;
-        /* gap: 5rem; */
-        grid-template-columns: repeat(auto-fit, minmax(300rem, auto));
-        padding-top: 1rem;
-        /* padding-right: 3rem; */
-        transition: 0.3s ease;
 
 
-    }
 
-    .header {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        background-color: transparent;
-        z-index: var(--z-fixed);
-        transition: .4s;
-    }
 
-    .nav {
-        height: var(--header-height);
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        color: aliceblue;
-    }
+
 }
 
 
@@ -2357,10 +2452,20 @@ video {
         color: azure;
         padding-bottom: 1rem;
         text-align: center;
-        padding-top: 98rem;
+        padding-top: 190rem;
 
         font-size: 1.2rem;
         font-size: 2rem;
+    }
+
+    .nav--list {
+        flex-direction: row;
+        column-gap: 4.5rem;
+        align-items: end;
+        text-align: end;
+        padding-left: 49rem;
+        padding-top: 12rem;
+        font-size: 1.2rem;
     }
 
     /* .nav--menu {
@@ -2408,10 +2513,20 @@ video {
 
     }
 
+    .log {
+        width: 27%;
+    }
+
+    .produc {
+        padding-left: 3.5rem;
+    }
+
     .video1,
     .video3,
     .video4,
-    .video6 {
+    .video6,
+    .video2,
+    .video5 {
         width: 900px;
         height: 500px;
         border-radius: 30px;
@@ -2419,6 +2534,16 @@ video {
         border-bottom: 2px;
 
 
+    }
+
+    .nav--list {
+        flex-direction: row;
+        column-gap: 4.5rem;
+        align-items: end;
+        text-align: end;
+        padding-left: 33rem;
+        padding-top: 12rem;
+        font-size: 1.2rem;
     }
 
 }
@@ -2447,6 +2572,20 @@ video {
         border-bottom: 2px;
 
 
+    }
+
+    .profile h1 {
+        font-size: 2rem;
+    }
+
+    .nav--list {
+        flex-direction: row;
+        column-gap: 4.5rem;
+        align-items: end;
+        text-align: end;
+        padding-left: 31rem;
+        padding-top: 12rem;
+        font-size: 1.2rem;
     }
 
 }
@@ -2485,10 +2624,12 @@ video {
     }
 
     .profile h1 {
-        padding-left: 1rem;
+        padding-left: 0.1rem;
         font-size: 1.4rem;
         padding-bottom: 0rem;
     }
+
+
 
 
 
@@ -2509,6 +2650,92 @@ video {
 
     }
 
+    /* .nav--list {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2.5rem;
+    } */
+
+    /* nav {
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ */
+
+    nav {
+        height: var(--header-height);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+
+    .nav--list {
+        flex-direction: column;
+        /* column-gap: 2.5rem; */
+        align-items: center;
+        text-align: center;
+        padding-left: 3rem;
+        padding-top: 2rem;
+
+        font-size: 1.2rem;
+
+
+    }
+
+    .nav--toogle {
+        padding-left: 21rem;
+        padding-top: 1.8rem;
+        font-size: 2rem;
+    }
+
+    .nav--close {
+        font-size: 2rem;
+    }
+
+    .nav--menu {
+        height: 40%;
+    }
+
+    .footer--social {
+        color: azure;
+        padding-bottom: 1rem;
+        text-align: center;
+        padding-top: 80rem;
+
+        font-size: 2.5rem;
+        font-size: 2.5rem;
+    }
+
+
+    /* .nav--list {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2.5rem;
+        
+    } */
+
+    /* .nav--menu {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        background-color: hsl(23, 12%, 4%, .2);
+        width: 100%;
+        padding-block: 5.5rem 4.5rem;
+        backdrop-filter: blur(32px);
+        -webkit-backdrop-filter: blur(32px);
+        transition: top .4s;
+    } */
+
+
+
+
+
     .produc {
         padding-left: 0.5rem;
         padding-bottom: 1rem;
@@ -2522,7 +2749,11 @@ video {
 
 @media (max-width: 375px) {
     .profile h1 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+    }
+
+    .nav--toogle {
+        padding-left: 19rem;
     }
 
     .video1,
@@ -2547,12 +2778,26 @@ video {
 
     }
 
+    .footer--social {
+        color: azure;
+        padding-bottom: 1rem;
+        text-align: center;
+        padding-top: 70rem;
+
+        font-size: 2.5rem;
+        font-size: 2.5rem;
+    }
+
 }
 
 @media (max-width: 320px) {
     .profile h1 {
         font-size: 1rem;
 
+    }
+
+    .nav--toogle {
+        padding-left: 16rem;
     }
 
     .profile {
@@ -2581,11 +2826,37 @@ video {
 
     }
 
+    /* .nav--list {
+        flex-direction: row;
+        column-gap: 4.5rem;
+        align-items: end;
+        text-align: end;
+        padding-left: 31rem;
+        padding-top: 10rem;
+        font-size: 1rem;
+    } */
+
+    .nav--list {
+        font-size: 1rem;
+    }
+
+
+
+    .footer--social {
+        color: azure;
+        padding-bottom: 1rem;
+        text-align: center;
+        padding-top: 55rem;
+
+        font-size: 2rem;
+
+    }
+
 
 
 }
 
-@media (max-width: 1616px) {
+/* @media (max-width: 1616px) {
     .profile h1 {
         font-size: 2rem;
     }
@@ -2641,4 +2912,4 @@ video {
         height: 450px;
     }
 
-}
+} */
